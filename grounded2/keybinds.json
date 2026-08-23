@@ -1,0 +1,22 @@
+{
+  "name": "Grounded 2",
+  "window_titles": ["grounded"],
+  "priority": ["attack", "aim_block", "crouch", "sprint", "movement"],
+  "bindings": [
+    {"id": "movement", "keys": ["w", "a", "s", "d"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "sprint", "keys": ["shift"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "crouch", "keys": ["ctrl"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "attack", "keys": ["mouse_left"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "aim_block", "keys": ["mouse_right"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "jump", "keys": ["space"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {"id": "interact", "keys": ["e"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {"id": "inventory", "keys": ["tab"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {
+      "id": "switch_item",
+      "keys": ["1", "2", "3", "4", "5", "6", "7", "8", "scroll"],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": ["all"]
+    }
+  ]
+}

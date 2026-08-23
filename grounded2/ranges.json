@@ -1,0 +1,12 @@
+{
+  "background": {"vibe": [0.20, 0.35]},
+  "movement": {"vibe": [0.40, 0.65]},
+  "sprint": {"vibe": [0.50, 0.70]},
+  "crouch": {"vibe": [0.30, 0.50]},
+  "attack": {"vibe": [0.70, 0.95]},
+  "aim_block": {"vibe": [0.45, 0.70]},
+  "jump": {"vibe": [0.70, 0.95], "duration": [0.30, 0.40]},
+  "interact": {"vibe": [0.15, 0.25], "duration": [0.15, 0.25]},
+  "inventory": {"vibe": [0.15, 0.25], "duration": [0.15, 0.25]},
+  "switch_item": {"vibe": [0.15, 0.30], "duration": [0.10, 0.15]}
+}

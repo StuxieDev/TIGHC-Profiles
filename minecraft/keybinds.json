@@ -1,0 +1,148 @@
+{
+  "name": "Minecraft",
+  "window_titles": [
+    "minecraft"
+  ],
+  "priority": [
+    "attack",
+    "use",
+    "sneak",
+    "sprint",
+    "movement"
+  ],
+  "bindings": [
+    {
+      "id": "movement",
+      "keys": [
+        "w",
+        "a",
+        "s",
+        "d"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "sprint",
+      "keys": [
+        "ctrl"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "sneak",
+      "keys": [
+        "shift"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "attack",
+      "keys": [
+        "mouse_left"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "use",
+      "keys": [
+        "mouse_right"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "jump",
+      "keys": [
+        "space"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "pick_block",
+      "keys": [
+        "mouse_middle"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "drop",
+      "keys": [
+        "q"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "offhand",
+      "keys": [
+        "f"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "inventory",
+      "keys": [
+        "e"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "switch_item",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "scroll"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    }
+  ]
+}
