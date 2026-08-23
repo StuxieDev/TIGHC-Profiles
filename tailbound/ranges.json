@@ -1,0 +1,8 @@
+{
+  "background": {"vibe": [0.20, 0.35]},
+  "movement": {"vibe": [0.35, 0.55]},
+  "run": {"vibe": [0.45, 0.65]},
+  "action": {"vibe": [0.40, 0.60], "duration": [0.15, 0.25]},
+  "cancel_sword": {"vibe": [0.50, 0.70], "duration": [0.15, 0.25]},
+  "map": {"vibe": [0.15, 0.25], "duration": [0.15, 0.20]}
+}

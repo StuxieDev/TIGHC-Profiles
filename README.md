@@ -46,6 +46,39 @@ README, since the engine (not this repo) is what parses and enforces them.
   management sim controls (movement/sprint as continuous, jump/interact/
   place/rotate/build-menu/hotbar as pulses). Not confirmed against Waterpark
   Simulator specifically - adjust to match if it differs.
+- **`cult_of_the_lamb/`** - confirmed default keybinds (movement, attack as
+  continuous, dodge/curse/interact/inventory as pulses). No dedicated sprint
+  - dodge (shift) is momentary, not sustained.
+- **`stardew_valley/`** - confirmed default keybinds (movement/tool-use as
+  continuous, secondary-action/menu/hotbar as pulses).
+- **`powerwash_simulator/`** - confirmed default keybinds (movement/sprint/
+  wash as continuous, jump/stance/interact/nozzle as pulses).
+- **`powerwash_simulator_2/`** - confirmed default keybinds for the "Modern"
+  control preset (wash is right-click here, vs. left-click in the first
+  game); the game doesn't support rebinding, only preset switching. Its
+  `window_titles` is `"powerwash simulator 2"` so it doesn't collide with
+  `powerwash_simulator/`, though the reverse (the first game's profile
+  matching this game's window) isn't ruled out - same caveat as
+  grounded/grounded2.
+- **`supermarket_simulator/`** - confirmed default keybinds (movement/sprint
+  as continuous, jump/interact/open-box/rotate as pulses). Not rebindable.
+- **`supermarket_together/`** - confirmed default keybinds, the co-op
+  spinoff of Supermarket Simulator (movement/sprint as continuous,
+  interact/place/open-box/deliveries as pulses). Not rebindable.
+- **`megastore_simulator/`** - inferred from the Supermarket Simulator-style
+  genre convention, not confirmed - no keybind documentation was found for
+  this game specifically. Adjust to match if it differs.
+- **`retro_rewind/`** - Retro Rewind: Video Store Simulator (a first-person
+  video rental store sim - not the Mario Kart Wii mod of the same name).
+  Inferred from the Supermarket Simulator-style genre convention, not
+  confirmed - no keybind documentation was found for this game
+  specifically. Adjust to match if it differs.
+- **`spirit_valley/`** - inferred from its Stardew Valley-like genre, not
+  confirmed - no keybind documentation was found for this game
+  specifically. Adjust to match if it differs.
+- **`tailbound/`** - confirmed via the official Steam manual (movement/run
+  as continuous, action/cancel/map as pulses). No jump binding - the
+  context-sensitive "action" key covers grapple/tail interactions.
 
 ## Adding a new profile
 

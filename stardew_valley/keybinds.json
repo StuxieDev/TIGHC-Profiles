@@ -1,0 +1,18 @@
+{
+  "name": "Stardew Valley",
+  "window_titles": ["stardew valley"],
+  "priority": ["use_tool", "movement"],
+  "bindings": [
+    {"id": "movement", "keys": ["w", "a", "s", "d"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "use_tool", "keys": ["mouse_left", "c"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "secondary_action", "keys": ["mouse_right", "x"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {"id": "inventory", "keys": ["e"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {
+      "id": "switch_item",
+      "keys": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "scroll"],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": ["all"]
+    }
+  ]
+}

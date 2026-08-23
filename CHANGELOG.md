@@ -4,6 +4,19 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
+## [1.1.0]
+
+### Added
+- `cult_of_the_lamb/`, `stardew_valley/`, `powerwash_simulator/`,
+  `powerwash_simulator_2/`, `supermarket_simulator/`,
+  `supermarket_together/`, `megastore_simulator/`, `retro_rewind/`,
+  `spirit_valley/`, and `tailbound/` profiles, covering the gameplay-driven
+  titles in the local Steam library that weren't already covered.
+  Confidence varies by title - see README.md's "Included profiles" section
+  for which are confirmed vs. inferred/community-sourced. (`retro_rewind/`
+  is Retro Rewind: Video Store Simulator, not the Mario Kart Wii mod
+  initially assumed.)
+
 ## [1.0.2]
 
 ### Added

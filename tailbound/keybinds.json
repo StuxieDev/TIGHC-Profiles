@@ -1,0 +1,12 @@
+{
+  "name": "Tailbound",
+  "window_titles": ["tailbound"],
+  "priority": ["run", "movement"],
+  "bindings": [
+    {"id": "movement", "keys": ["left", "right"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "run", "keys": ["shift"], "mode": "continuous", "enabled": true, "devices": ["all"]},
+    {"id": "action", "keys": ["z"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {"id": "cancel_sword", "keys": ["x"], "mode": "pulse", "enabled": true, "devices": ["all"]},
+    {"id": "map", "keys": ["c"], "mode": "pulse", "enabled": true, "devices": ["all"]}
+  ]
+}
