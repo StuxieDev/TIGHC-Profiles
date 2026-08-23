@@ -48,7 +48,7 @@ README, since the engine (not this repo) is what parses and enforces them.
 3. Edit `ranges.json` to match every binding id you kept (including
    `background`).
 4. Validate it loads correctly by pointing a TIGHC checkout's `profiles/` at
-   this repo (or copying the folder in) and running `python haptics.py` or
+   this repo (or copying the folder in) and running `python cli.py` or
    `python gui.py` - a structurally invalid profile fails fast with a clear
    error at startup rather than crashing mid-session.
 
