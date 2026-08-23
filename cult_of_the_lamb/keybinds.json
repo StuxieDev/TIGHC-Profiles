@@ -1,13 +1,82 @@
 {
   "name": "Cult of the Lamb",
-  "window_titles": ["cult of the lamb"],
-  "priority": ["attack", "movement"],
+  "window_titles": [
+    "cult of the lamb"
+  ],
+  "priority": [
+    "attack",
+    "movement"
+  ],
   "bindings": [
-    {"id": "movement", "keys": ["w", "a", "s", "d"], "mode": "continuous", "enabled": true, "devices": ["all"]},
-    {"id": "attack", "keys": ["mouse_left"], "mode": "continuous", "enabled": true, "devices": ["all"]},
-    {"id": "dodge", "keys": ["shift"], "mode": "pulse", "enabled": true, "devices": ["all"]},
-    {"id": "curse", "keys": ["mouse_right"], "mode": "pulse", "enabled": true, "devices": ["all"]},
-    {"id": "interact", "keys": ["x"], "mode": "pulse", "enabled": true, "devices": ["all"]},
-    {"id": "inventory", "keys": ["tab"], "mode": "pulse", "enabled": true, "devices": ["all"]}
-  ]
+    {
+      "id": "movement",
+      "keys": [
+        "w",
+        "a",
+        "s",
+        "d"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "attack",
+      "keys": [
+        "mouse_left"
+      ],
+      "mode": "continuous",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "dodge",
+      "keys": [
+        "shift"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "curse",
+      "keys": [
+        "mouse_right"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "interact",
+      "keys": [
+        "x"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    },
+    {
+      "id": "inventory",
+      "keys": [
+        "tab"
+      ],
+      "mode": "pulse",
+      "enabled": true,
+      "devices": [
+        "all"
+      ]
+    }
+  ],
+  "steamgriddb_id": 5294443
 }
