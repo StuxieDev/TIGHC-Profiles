@@ -1,0 +1,9 @@
+{
+  "background": {"vibe": [0.20, 0.35]},
+  "movement": {"vibe": [0.35, 0.55]},
+  "sprint": {"vibe": [0.45, 0.65]},
+  "interact": {"vibe": [0.30, 0.45], "duration": [0.15, 0.25]},
+  "rewind": {"vibe": [0.20, 0.30], "duration": [0.15, 0.25]},
+  "menu": {"vibe": [0.15, 0.25], "duration": [0.15, 0.20]},
+  "rotate": {"vibe": [0.15, 0.25], "duration": [0.10, 0.15]}
+}

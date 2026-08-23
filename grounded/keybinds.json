@@ -1,6 +1,6 @@
 {
-  "name": "Grounded 2",
-  "window_titles": ["grounded 2"],
+  "name": "Grounded",
+  "window_titles": ["grounded"],
   "priority": ["attack", "aim_block", "crouch", "sprint", "movement"],
   "bindings": [
     {"id": "movement", "keys": ["w", "a", "s", "d"], "mode": "continuous", "enabled": true, "devices": ["all"]},
