@@ -4,7 +4,7 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
-## [Unreleased]
+## [1.0.1]
 
 ### Added
 - `waterpark_simulator/` profile - built from typical first-person
