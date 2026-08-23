@@ -34,10 +34,14 @@ README, since the engine (not this repo) is what parses and enforces them.
 
 - **`minecraft/`** - Minecraft's default keybinds (WASD movement, sprint,
   sneak, attack/use, jump, drop, offhand, inventory, hotbar).
-- **`grounded2/`** - built from Grounded's standard default keybinds
+- **`grounded/`** - built from Grounded's standard default keybinds
   (movement/sprint/crouch/attack/aim-block as continuous, jump/interact/
-  inventory/hotbar as pulses). Not confirmed against Grounded 2 specifically
-  - adjust to match if it differs.
+  inventory/hotbar as pulses). Not confirmed against Grounded specifically -
+  adjust to match if it differs.
+- **`grounded2/`** - same base bindings as `grounded/`, for Grounded 2. Not
+  confirmed against Grounded 2 specifically - adjust to match if it differs.
+  Its `window_titles` is `"grounded 2"` (not just `"grounded"`) so it doesn't
+  also match the original Grounded's window.
 - **`waterpark_simulator/`** - built from typical first-person building/
   management sim controls (movement/sprint as continuous, jump/interact/
   place/rotate/build-menu/hotbar as pulses). Not confirmed against Waterpark
