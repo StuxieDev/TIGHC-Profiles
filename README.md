@@ -9,6 +9,7 @@ This repo is meant to be checked out as the `profiles/` git submodule of the
 main TIGHC project, so profiles can be updated/shared independently of the
 engine itself.
 
+Website: https://tighc.stuxie.dev  
 Repository: https://github.com/StuxieDev/TIGHC-Profiles
 
 ## Author
