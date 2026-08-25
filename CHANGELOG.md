@@ -4,6 +4,14 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
+## [1.1.2]
+
+### Fixed
+- `assets/icon.png`, `icon.ico`, and `logo.png` had an opaque dark
+  (`#1E1E1E`) rounded-rect fill baked in instead of a transparent
+  background. Replaced with transparent versions (copied from the main
+  TIGHC repo after fixing them there via a color-to-alpha un-blend).
+
 ## [1.1.1]
 
 ### Added
