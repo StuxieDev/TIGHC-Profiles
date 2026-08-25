@@ -17,6 +17,9 @@ Repository: https://github.com/StuxieDev/TIGHC-Profiles
 
 **[StuxieDev](https://github.com/StuxieDev)**
 
+<br>
+<br>
+
 ## Structure
 
 Each top-level folder is one profile - one game - with two files:
