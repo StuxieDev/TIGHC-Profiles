@@ -1,9 +1,21 @@
 # TIGHC Profiles
 
+**Version 1.1.1** — see [CHANGELOG.md](CHANGELOG.md) for release history.
+
+![TIGHC](assets/logo.png)
+
 Game profiles for [The Intiface Game Haptics Controller (TIGHC)](https://github.com/StuxieDev/TIGHC).
 This repo is meant to be checked out as the `profiles/` git submodule of the
 main TIGHC project, so profiles can be updated/shared independently of the
 engine itself.
+
+Repository: https://github.com/StuxieDev/TIGHC-Profiles
+
+## Author
+
+<img src="assets/author.png" width="80" height="80" alt="StuxieDev" align="left" style="margin-right: 12px;">
+
+**[StuxieDev](https://github.com/StuxieDev)**
 
 ## Structure
 
@@ -38,7 +50,7 @@ README, since the engine (not this repo) is what parses and enforces them.
   (movement/sprint/crouch/attack/aim-block as continuous, jump/interact/
   inventory/hotbar as pulses). Not confirmed against Grounded specifically -
   adjust to match if it differs.
-- **`grounded2/`** - same base bindings as `grounded/`, for Grounded 2. Not
+- **`grounded_2/`** - same base bindings as `grounded/`, for Grounded 2. Not
   confirmed against Grounded 2 specifically - adjust to match if it differs.
   Its `window_titles` is `"grounded 2"` (not just `"grounded"`) so it doesn't
   also match the original Grounded's window.
@@ -96,7 +108,9 @@ README, since the engine (not this repo) is what parses and enforces them.
 This can also be done interactively from TIGHC's GUI (Profiles tab ->
 "New profile...", which starts from a copy of `minecraft/`).
 
-## Versioning
+## Versioning and contact
 
-Follows [Semantic Versioning](https://semver.org/) independently of the main
-TIGHC engine's version - see [CHANGELOG.md](CHANGELOG.md).
+Follows [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`),
+independently of the main TIGHC engine's own version - see
+[CHANGELOG.md](CHANGELOG.md) for what changed in each release. Questions,
+issues, or contributions: https://github.com/StuxieDev/TIGHC-Profiles

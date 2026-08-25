@@ -4,6 +4,16 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
+## [1.1.1]
+
+### Added
+- Logo banner and an `assets/` folder (`icon.png`/`icon.ico`/`logo.png`,
+  copied from the main TIGHC repo) at the top of README.md, for visual
+  consistency with the main repo and the website.
+- Author credit section in README.md (StuxieDev, with a GitHub avatar at
+  `assets/author.png`), matching the same addition in the main TIGHC repo
+  and TIGHC-Website.
+
 ## [1.1.0]
 
 ### Added
