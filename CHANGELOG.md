@@ -4,6 +4,15 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
+## [1.2.0]
+
+### Changed
+- **All profiles migrated to single `profile.json`** — each profile folder
+  previously held two files (`keybinds.json` + `ranges.json`). These have been
+  merged into one `profile.json` per game, with the `vibe` range inline on each
+  binding and `background_vibe` at the top level. Requires TIGHC engine v3.7.0
+  or later.
+
 ## [1.1.2]
 
 ### Fixed
