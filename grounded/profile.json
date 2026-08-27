@@ -1,9 +1,21 @@
 {
-  "name": "Grounded 2",
+  "name": "Grounded",
   "window_titles": [
-    "Grounded"
+    "grounded"
   ],
-  "priority": [],
+  "window_title_exact": true,
+  "steamgriddb_id": 5256776,
+  "priority": [
+    "attack",
+    "aim_block",
+    "crouch",
+    "sprint",
+    "movement"
+  ],
+  "background_vibe": [
+    0.2,
+    0.35
+  ],
   "bindings": [
     {
       "id": "movement",
@@ -13,10 +25,13 @@
         "s",
         "d"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.4,
+        0.65
       ]
     },
     {
@@ -24,10 +39,13 @@
       "keys": [
         "shift"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.5,
+        0.7
       ]
     },
     {
@@ -35,10 +53,13 @@
       "keys": [
         "ctrl"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.3,
+        0.5
       ]
     },
     {
@@ -46,10 +67,13 @@
       "keys": [
         "mouse_left"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.7,
+        0.95
       ]
     },
     {
@@ -57,10 +81,13 @@
       "keys": [
         "mouse_right"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.45,
+        0.7
       ]
     },
     {
@@ -68,10 +95,13 @@
       "keys": [
         "space"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.7,
+        0.95
       ]
     },
     {
@@ -79,10 +109,13 @@
       "keys": [
         "e"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.15,
+        0.25
       ]
     },
     {
@@ -90,10 +123,13 @@
       "keys": [
         "tab"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.15,
+        0.25
       ]
     },
     {
@@ -109,10 +145,13 @@
         "8",
         "scroll"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.15,
+        0.3
       ]
     }
   ]

@@ -1,14 +1,11 @@
 {
-  "name": "Minecraft",
+  "name": "Grounded 2",
   "window_titles": [
-    "minecraft"
+    "Grounded"
   ],
-  "priority": [
-    "attack",
-    "use",
-    "sneak",
-    "sprint",
-    "movement"
+  "background_vibe": [
+    0.0,
+    0.0
   ],
   "bindings": [
     {
@@ -19,32 +16,41 @@
         "s",
         "d"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.4,
+        0.65
       ]
     },
     {
       "id": "sprint",
       "keys": [
-        "ctrl"
+        "shift"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.5,
+        0.7
       ]
     },
     {
-      "id": "sneak",
+      "id": "crouch",
       "keys": [
-        "shift"
+        "ctrl"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.3,
+        0.5
       ]
     },
     {
@@ -52,21 +58,27 @@
       "keys": [
         "mouse_left"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.7,
+        0.95
       ]
     },
     {
-      "id": "use",
+      "id": "aim_block",
       "keys": [
         "mouse_right"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.45,
+        0.7
       ]
     },
     {
@@ -74,54 +86,41 @@
       "keys": [
         "space"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.7,
+        0.95
       ]
     },
     {
-      "id": "pick_block",
+      "id": "interact",
       "keys": [
-        "mouse_middle"
+        "e"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
-      ]
-    },
-    {
-      "id": "drop",
-      "keys": [
-        "q"
       ],
-      "mode": "pulse",
-      "enabled": true,
-      "devices": [
-        "all"
-      ]
-    },
-    {
-      "id": "offhand",
-      "keys": [
-        "f"
-      ],
-      "mode": "pulse",
-      "enabled": true,
-      "devices": [
-        "all"
+      "vibe": [
+        0.15,
+        0.25
       ]
     },
     {
       "id": "inventory",
       "keys": [
-        "e"
+        "tab"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.15,
+        0.25
       ]
     },
     {
@@ -135,13 +134,15 @@
         "6",
         "7",
         "8",
-        "9",
         "scroll"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.15,
+        0.3
       ]
     }
   ]

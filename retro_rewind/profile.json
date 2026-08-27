@@ -1,11 +1,15 @@
 {
-  "name": "Cult of the Lamb",
+  "name": "Retro Rewind: Video Store Simulator",
   "window_titles": [
-    "cult of the lamb"
+    "retro rewind"
   ],
   "priority": [
-    "attack",
+    "sprint",
     "movement"
+  ],
+  "background_vibe": [
+    0.2,
+    0.35
   ],
   "bindings": [
     {
@@ -16,67 +20,84 @@
         "s",
         "d"
       ],
-      "mode": "continuous",
       "enabled": true,
       "devices": [
         "all"
-      ]
-    },
-    {
-      "id": "attack",
-      "keys": [
-        "mouse_left"
       ],
-      "mode": "continuous",
-      "enabled": true,
-      "devices": [
-        "all"
+      "vibe": [
+        0.35,
+        0.55
       ]
     },
     {
-      "id": "dodge",
+      "id": "sprint",
       "keys": [
         "shift"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
-      ]
-    },
-    {
-      "id": "curse",
-      "keys": [
-        "mouse_right"
       ],
-      "mode": "pulse",
-      "enabled": true,
-      "devices": [
-        "all"
+      "vibe": [
+        0.45,
+        0.65
       ]
     },
     {
       "id": "interact",
       "keys": [
-        "x"
+        "mouse_left"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.3,
+        0.45
       ]
     },
     {
-      "id": "inventory",
+      "id": "rewind",
       "keys": [
-        "tab"
+        "e"
       ],
-      "mode": "pulse",
       "enabled": true,
       "devices": [
         "all"
+      ],
+      "vibe": [
+        0.2,
+        0.3
+      ]
+    },
+    {
+      "id": "menu",
+      "keys": [
+        "tab"
+      ],
+      "enabled": true,
+      "devices": [
+        "all"
+      ],
+      "vibe": [
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "id": "rotate",
+      "keys": [
+        "r"
+      ],
+      "enabled": true,
+      "devices": [
+        "all"
+      ],
+      "vibe": [
+        0.15,
+        0.25
       ]
     }
-  ],
-  "steamgriddb_id": 5294443
+  ]
 }
