@@ -3,6 +3,17 @@
   "window_titles": [
     "Grounded"
   ],
+  "priority": [
+    "attack",
+    "aim_block",
+    "crouch",
+    "sprint",
+    "jump",
+    "movement",
+    "inventory",
+    "interact",
+    "switch_item"
+  ],
   "bindings": [
     {
       "id": "movement",
