@@ -7,10 +7,6 @@
     "use_tool",
     "movement"
   ],
-  "background_vibe": [
-    0.2,
-    0.35
-  ],
   "bindings": [
     {
       "id": "movement",

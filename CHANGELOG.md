@@ -4,6 +4,13 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/StuxieDev/TIGHC) engine's own version.
 
+## [1.3.0]
+
+### Changed
+- **`background_vibe` removed** from all 14 `profile.json` files. The engine
+  no longer uses this field (removed in TIGHC v3.8.0); channels idle at 0
+  between activations. Requires TIGHC engine v3.8.0 or later.
+
 ## [1.2.0]
 
 ### Changed

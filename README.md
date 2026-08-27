@@ -1,6 +1,6 @@
 # TIGHC Profiles
 
-**Version 1.1.1** — see [CHANGELOG.md](CHANGELOG.md) for release history.
+**Version 1.3.0** — see [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ![TIGHC](assets/logo.png)
 
