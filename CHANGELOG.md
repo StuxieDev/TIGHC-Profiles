@@ -4,6 +4,12 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/TIGHC/Engine) engine's own version.
 
+## [1.3.2]
+
+### Changed
+- **`version.txt` renamed to `VERSION.md`** — same single source of truth,
+  only the filename changed.
+
 ## [1.3.1]
 
 ### Fixed
