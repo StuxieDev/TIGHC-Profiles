@@ -4,6 +4,16 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/TIGHC/Engine) engine's own version.
 
+## [1.3.1]
+
+### Fixed
+- **Grounded 2 window title** — updated `window_titles` from `"Grounded"` to
+  `"Grounded 2"` so it no longer matches the original Grounded's window.
+
+### Changed
+- **Repo moved to TIGHC org** — all URLs updated from `StuxieDev/TIGHC-Profiles`
+  to `TIGHC/Profiles`.
+
 ## [1.3.0]
 
 ### Changed
