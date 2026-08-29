@@ -8,13 +8,13 @@
 
 ![TIGHC](assets/logo.png)
 
-Game profiles for [The Intiface Game Haptics Controller (TIGHC)](https://github.com/TIGHC/TIGHC).
+Game profiles for [The Intiface Game Haptics Controller (TIGHC)](https://github.com/TIGHC/Engine).
 This repo is meant to be checked out as the `profiles/` git submodule of the
 main TIGHC project, so profiles can be updated/shared independently of the
 engine itself.
 
 Website: https://tighc.stuxie.dev  
-Repository: https://github.com/TIGHC/TIGHC-Profiles
+Repository: https://github.com/TIGHC/Profiles
 
 ## Author
 
@@ -119,4 +119,4 @@ This can also be done interactively from TIGHC's GUI (Profiles tab ->
 Follows [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`),
 independently of the main TIGHC engine's own version - see
 [CHANGELOG.md](CHANGELOG.md) for what changed in each release. Questions,
-issues, or contributions: https://github.com/TIGHC/TIGHC-Profiles
+issues, or contributions: https://github.com/TIGHC/Profiles
