@@ -23,25 +23,25 @@ Repository: https://github.com/StuxieDev/TIGHC-Profiles
 
 ## Structure
 
-Each top-level folder is one profile - one game - with two files:
+Each top-level folder is one profile - one game - with a single file:
 
 ```
 <profile-id>/
-  keybinds.json   # which keys/buttons do what, and how
-  ranges.json     # intensity/duration bands for each binding
+  profile.json    # everything: name, window titles, bindings, ranges, priority
 ```
 
-- **`keybinds.json`**: `name` (display name), `window_titles` (lowercase
-  substrings matched against the focused window's title to auto-select this
-  profile), `priority` (continuous-binding ids in first-match-wins order),
-  and `bindings` - a list of `{id, keys, mode, enabled, devices}` objects.
+`profile.json` contains:
+- `name` — display name shown in the GUI
+- `window_titles` — lowercase substrings matched against the focused window's
+  title to auto-select this profile
+- `priority` — binding ids in highest-to-lowest priority order; a
+  higher-priority binding running on a channel blocks lower-priority ones
+- `bindings` — list of `{id, keys, mode, enabled, devices, vibe}` objects.
   `mode` is `"continuous"` (sustained vibration while held) or `"pulse"`
   (one-shot buzz per press). `devices` is a list of channel nicknames from
-  the main app's `devices.json`, or `["all"]`.
-- **`ranges.json`**: keyed by the same binding `id`, holds `vibe` (a
-  `[low, high]` 0.0-1.0 intensity band) and, for pulse bindings, `duration`
-  (a `[low, high]` band in seconds). Always has a `background` entry too -
-  the idle level used when nothing more specific is happening.
+  the main app's `devices.json`, or `["all"]`. `vibe` is a `[low, high]`
+  0.0–1.0 intensity band rolled independently per channel on each activation.
+- `background` — idle `vibe` band used when no binding is active
 
 Full schema details and validation rules live in the main TIGHC repo's
 README, since the engine (not this repo) is what parses and enforces them.
@@ -100,11 +100,9 @@ README, since the engine (not this repo) is what parses and enforces them.
 
 1. Copy an existing folder (`minecraft/` is the most complete example) and
    rename it to a short lowercase id for the new game.
-2. Edit `keybinds.json`: set `name`, `window_titles` to match that game's
-   window title, and adjust `bindings` to that game's controls.
-3. Edit `ranges.json` to match every binding id you kept (including
-   `background`).
-4. Validate it loads correctly by pointing a TIGHC checkout's `profiles/` at
+2. Edit `profile.json`: set `name`, `window_titles` to match that game's
+   window title, and adjust `bindings` and `vibe` ranges to that game's controls.
+3. Validate it loads correctly by pointing a TIGHC checkout's `profiles/` at
    this repo (or copying the folder in) and running `python cli.py` or
    `python gui.py` - a structurally invalid profile fails fast with a clear
    error at startup rather than crashing mid-session.
