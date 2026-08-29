@@ -9,9 +9,9 @@
 ![TIGHC](assets/logo.png)
 
 Game profiles for [The Intiface Game Haptics Controller (TIGHC)](https://github.com/TIGHC/Engine).
-This repo is meant to be checked out as the `profiles/` git submodule of the
-main TIGHC project, so profiles can be updated/shared independently of the
-engine itself.
+On first launch, TIGHC downloads profiles from this repo automatically. Use
+"Update profiles from GitHub" in the Profiles tab to pick up new additions,
+or "Restore from GitHub..." to reset a profile to its original version.
 
 Website: https://tighc.stuxie.dev  
 Repository: https://github.com/TIGHC/Profiles
