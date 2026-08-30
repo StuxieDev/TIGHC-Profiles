@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="500" alt="The Intiface Game Haptics Controller (TIGHC)">
+</p>
+
 # TIGHC Profiles
 
 > **18+ only.** These are game profiles for TIGHC, software that connects to
@@ -5,8 +9,6 @@
 > aged 18 or older.
 
 **Version 1.3.4** — see [CHANGELOG.md](CHANGELOG.md) for release history.
-
-![TIGHC](assets/logo.png)
 
 Game profiles for [The Intiface Game Haptics Controller (TIGHC)](https://github.com/TIGHC/Engine).
 On first launch, TIGHC downloads profiles from this repo automatically. Use
