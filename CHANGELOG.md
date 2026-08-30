@@ -4,6 +4,12 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/TIGHC/Engine) engine's own version.
 
+## [1.3.3]
+
+### Added
+- **`CONTRIBUTING.md`** — how to add/edit a profile, validate it, and the
+  versioning convention for PRs.
+
 ## [1.3.2]
 
 ### Changed
