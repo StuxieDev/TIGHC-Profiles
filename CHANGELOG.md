@@ -4,6 +4,13 @@ All notable changes to this project are documented here. Versioning follows
 [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`), independent
 of the main [TIGHC](https://github.com/TIGHC/Engine) engine's own version.
 
+## [1.3.6]
+
+### Fixed
+- **Mojibake in `commit.sh`/`commit.bat` console output** — an em dash in
+  the log/echo messages rendered as garbled bytes (e.g. `ÔÇö`) on the
+  default Windows console codepage. Replaced with plain ASCII dashes.
+
 ## [1.3.5]
 
 ### Fixed
